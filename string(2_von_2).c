@@ -27,3 +27,8 @@ char * aufgabe1_int2str(int zahl){
     
 }
 
+long aufgabe2_str2int(const char *str){
+    char *endptr; 
+    long value = strol(str, &endptr, 10); 
+    
+}
